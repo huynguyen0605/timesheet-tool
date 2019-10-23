@@ -28,7 +28,6 @@ async function editTs() {
         try {
             var key = DateTimeUtils.convertTsToDate(Date.now());
             if (db.has(key).value()) {
-                console.log('huynvq::==========>key', key);
                 return resolve();
             };
             logger.log('info', `${LOG_TAG}-editTs-START`);
