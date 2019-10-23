@@ -10,6 +10,6 @@ module.exports = {
         userID: '659776688'
     },
     scheduler: {
-        pattern: '*/10 * * 1-31 * 1-5',
+        pattern: '0 30 8 1-31 * 1-5',
     }
 };
